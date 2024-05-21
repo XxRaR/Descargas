@@ -4,15 +4,15 @@
 
 package com.mycompany.pruebafile;
 
-import java.io.File;
+import java.io.File; //Importamos la libreria para los archivos
 
 public class PruebaFile {
 
     public static void main(String[] args) {
         //muestra información acerca de un fichero y un directorio
 
-        File fichero = new File("ejemplo.txt");
-        if (fichero.exists() && fichero.isFile()) {
+        File fichero = new File("ejemplo.txt");//Se crea una nueva instancia dentro de File
+        if (fichero.exists() && fichero.isFile()) { //Nos dice que si el fichero o archivo existe entonces se imprimira lo siguiente
         System.out.println("\n- Información del fichero:");
         System.out.println("El fichero tiene el nombre: " + fichero.getName());
         System.out.println("El fichero tiene el path: " + fichero.getAbsolutePath());
@@ -28,5 +28,4 @@ public class PruebaFile {
         }
     }
 }
-
     
