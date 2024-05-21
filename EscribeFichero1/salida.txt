@@ -1,0 +1,4 @@
+Esto es una cadena.
+Esto es otra cadena.
+Esto es una cadena.
+Esto es otra cadena.
