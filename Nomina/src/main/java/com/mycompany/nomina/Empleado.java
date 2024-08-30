@@ -18,3 +18,28 @@ public abstract class Empleado { //clase abstracta
  
     
 }
+
+
+
+
+
+
+
+import java.util.Scanner;
+public class ArregloEdades(){
+    Public static void main(String[] args){
+        Scanner L = new Scanner(System.in);
+        int te = 0;
+        System.out.print("¿Cuantas personas participan? ");
+        int cantPer = L.nextInt();
+        int [] edades = new int [cantPer];
+        for(int i = 0; i < cantPer; i++){
+            System.out.print("Ingresa las edades: ");
+            int edades = L.nextInt();
+            te = te + edades;
+            float promedio = te/cantPer;
+            
+            
+            
+
+    
